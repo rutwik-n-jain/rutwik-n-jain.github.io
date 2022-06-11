@@ -36,7 +36,9 @@ table {
 
 caption, th, td {
   font-weight: normal;
-  text-align: left; }
+  text-align: left; 
+  vertical-align: middle;
+}
 
 blockquote:before, blockquote:after,
 q:before, q:after {
