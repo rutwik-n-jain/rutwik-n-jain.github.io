@@ -59,7 +59,8 @@
     </header>
     <button class="uw-mobile-menu-button-bar uw-mobile-menu-button-bar-reversed uw-is-closed " data-menu="uw-top-menus" aria-label="Open menu" aria-expanded="false" aria-controls="uw-top-menus">Menu<svg aria-hidden="true" focusable="false"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#uw-symbol-menu"></use></svg><svg aria-hidden="true" focusable="false"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#uw-symbol-close"></use></svg></button>
 
-
+    <!----------------------------------------------------------------------------------------------------------------------------------->
+    <!----MY MENU BAR---------->
     <div id="uw-top-menus" class="uw-is-visible uw-horizontal" aria-hidden="false">
       <div class="uw-main-nav">
         <nav class="uw-nav-menu uw-nav-menu-reverse" aria-label="Main Menu">
@@ -67,11 +68,14 @@
             <li>
               <a href="">Home</a>
             </li>
-            <!-- <li>
-              <a href="publications.html">Publications</a>
-            </li> -->
+            <li>
+              <a href="#About">About</a>
+            </li>
+            <li>
+              <a href="#Publications">Publications</a>
+            </li>
             <li id="menu-blogs" class="uw-dropdown">
-              <a href="fallback_url_for_no_js" role="button" aria-haspopup="true" aria-expanded="false">
+              <a href="" role="button" aria-haspopup="true" aria-expanded="true">
                 Blogs<svg aria-hidden="true" class="uw-caret" focusable="false"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#uw-symbol-caret-down"></use></svg><svg aria-hidden="true" class="uw-caret" focusable="false"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#uw-symbol-caret-up"></use></svg>
               </a>
               <ul aria-hidden="true" aria-label="About submenu" class="uw-child-menu">
@@ -79,37 +83,20 @@
                   <a href="https://sites.google.com/view/raga-rutwik/home?authuser=0">Indian Music Blog</a>
                 </li>
                 <li class="current-menu-item">
-                  <a href="https://cosyreadingniche.wordpress.com/">Reading and Poetry Blog</a>
-                </li>
-              </ul>
-            </li>
-            <li id="menu-about" class="uw-dropdown">
-              <a href="fallback_url_for_no_js" role="button" aria-haspopup="true" aria-expanded="false">
-                About<svg aria-hidden="true" class="uw-caret" focusable="true"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#uw-symbol-caret-down"></use></svg><svg aria-hidden="true" class="uw-caret" focusable="false"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#uw-symbol-caret-up"></use></svg>
-              </a>
-              <ul aria-hidden="true" aria-label="About submenu" class="uw-child-menu">
-                <li>
-                  <a href="url">About</a>
-                </li>
-                <li>
-                  <a href="url">Our Location</a>
-                </li>
-                <li>
-                  <a href="url">News</a>
-                </li>
-                <li>
-                  <a href="url">Contact Us</a>
+                  <a href="https://cosyreadingniche.wordpress.com/">Books and Poetry Blog</a>
                 </li>
               </ul>
             </li>
           </ul>
         </nav>
       </div>
+    <!----------------------------------------------------------------------------------------------------------------------------------->
+    <!----RED MENU BAR UW MADISON DEFAULT---------->
       <div class="uw-secondary-nav">
         <nav class="uw-nav-menu uw-nav-menu-secondary" aria-label="Secondary Menu">
           <ul>
             <li id="menu-news" class="uw-dropdown">
-              <a href="http://news.wisc.edu" aria-haspopup="true" aria-expanded="false">
+              <a href="http://news.wisc.edu" aria-haspopup="true" aria-expanded="true">
                 News<svg aria-hidden="true" class="uw-caret" focusable="false"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#uw-symbol-caret-down"></use></svg><svg aria-hidden="true" class="uw-caret" focusable="false"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#uw-symbol-caret-up"></use></svg>
               </a>
               <ul aria-hidden="true" aria-label="News submenu" class="uw-child-menu">
@@ -134,15 +121,10 @@
         </nav>
       </div>
     </div>
-
     <main class="uw-pad-xl" id="main">
       <div class="uw-body">
-        <div class="uw-text-center">
-            "As they say, the first step in fixing something is getting it to break"
-            <br>
-            <em> Tracy Kidder, The Soul of a New Machine (1981)</em>
-          </p>
-        </div>
+        <!----------------------------------------------------------------------------------------------------------------------------------->
+        <!----ABOUT SECTION---------->
         <div class="uw-row">
           <table BORDER="0" WIDTH="100%">
             <tr>
@@ -153,7 +135,7 @@
                 <a href="https://www.linkedin.com/in/rutwik-n-jain/"><i class="fa fa-linkedin-square  fa-lg"></i> &nbsp; /rutwik-n-jain </a> &nbsp;
                 <a href="https://twitter.com/jain_rutwik"><i class="fa fa-twitter-square  fa-lg"></i> &nbsp; /jain_rutwik </a> &nbsp;
                 <br><br>
-                I am a second-year graduate student in the <a href="https://www.cs.wisc.edu/">Computer Sciences department</a> 
+                <p id="About">I am a second-year graduate student in the <a href="https://www.cs.wisc.edu/">Computer Sciences department</a> 
                 at <a href="http://www.wisc.edu">University of Wisconsin-Madison</a>, advised by <a href="https://pages.cs.wisc.edu/~sinclair/">Prof. Matt Sinclair</a> 
                 and <a href="https://shivaram.org/">Prof. Shivaram Venkataraman</a>. 
                 <br><br>
@@ -163,15 +145,25 @@
                 <br><br>
                 Until July 2020, I was part of <a href="https://www.nvidia.com/en-in/">Nvidia Graphics</a> as ASIC Design Engineer 
                 for the SoC Memory Subsystem team in Bengaluru (India). I completed my Bachelor’s degree in 
-                Electrical and Electronics Engineering from BITS Pilani in 2019.
+                Electrical and Electronics Engineering from BITS Pilani in 2019. </p>
               </td>
               <br>
               <td style="border: 0; text-align: center;" ALIGN=RIGHT VALIGN=CENTER NOWRAP>
-                <img SRC="images/headshot2.png" ALT="[Image]" BORDER=0 ALIGN=CENTER>
+                <img SRC="images/headshot.jpeg" ALT="[Image]" BORDER=0 ALIGN=CENTER>
               </td>
             </tr>
           </table>
           </div>
+          <!----QUOTE---------->
+          <div class="uw-text-center">
+          <i class="fa fa-envelope fa-quote-left"></i> &nbsp; Norbert Weiner prophesied that the computer would offer “unbounded possibilities for good and for evil,"
+          <br> and he advanced faintly, the hope that the contributors to this new science would nudge it in a humane direction. &nbsp; <i class="fa fa-envelope fa-quote-right"></i>
+            <br>
+            <em> Tracy Kidder, The Soul of a New Machine (1981)</em>
+          </p>
+        </div>
+          <!----------------------------------------------------------------------------------------------------------------------------------->
+          <!----LATEST NEWS SECTION---------->
           <div class="uw-row">
             <h2  class="uw-mini-bar">
               <a name='toc-news' id='toc-news'></a>News
@@ -179,6 +171,9 @@
           </div>
           <div class="uw-row">
             <ul class="uw-list-tight" style="font-family:sans-serif;">
+              <li>
+                July 2022: Our paper on measuring the variability in large-scale, many-GPU systems is accepted to <a href="https://sc22.supercomputing.org">SC'22</a>!
+              </li>
               <li>
                   May 2022: Received UW-Madison's CS <a href="https://www.cs.wisc.edu/undergraduate/summer-research-assistantship/">Summer Research Assistantship</a>
               </li>
@@ -188,6 +183,45 @@
               <li>
                   Aug 2021: Joined UW Madison for graduate school and <a href="https://pages.cs.wisc.edu/~sinclair/group.html">HAL Research Group</a>! 
               </li>
+            </ul>
+          </div>
+          <!----------------------------------------------------------------------------------------------------------------------------------->
+          <!---- PUBLICATIONS ---------->
+          <div id="Publications" class="uw-row">
+            <h2  class="uw-mini-bar">
+              <a name='toc-pubs' id='toc-pubs'></a>Publications
+            </h2>
+          </div>
+          <div class="uw-row">
+            <h3 class="small-gray-heading">
+              <a name='toc-pub-ug' id='toc-pub-ug'></a>CURRENT
+            </h3>
+          </div>
+          <div class="uw-row">
+            <ul class="uw-list-tight" style="font-family:sans-serif;">
+
+              <li>
+                
+              </li>             
+            </ul>
+          </div>
+          <!--------Undergrad Publications--------------------------------------------------------------------------------------->
+          <div class="uw-row">
+            <h3 class="small-gray-heading">
+              <a name='toc-pub-ug' id='toc-pub-ug'></a>Undergraduate
+            </h3>
+          </div>
+          <div class="uw-row">
+            <ul class="uw-list-tight" style="font-family:sans-serif;">
+              <li>
+              Ojha, AK, <b>Jain, R</b>, Kumar AV, P. Magnetic quadrupole mode excitation of a cylindrical dielectric resonator antenna using planar feed. Microw Opt Technol Lett. 2020; 62: 484– 490. <a href=https://doi.org/10.1002/mop.32042>https://doi.org/10.1002/mop.32042</a>
+              </li> 
+              <li>
+              U. Garg and <b>R. N. Jain</b>, "Modelling and Simulation of Onboard Wire Antennas for a 3U CubeSat," 2019 Photonics & Electromagnetics Research Symposium - Fall (PIERS - Fall), 2019, pp. 871-879, doi: 10.1109/PIERS-Fall48861.2019.9021446.
+              </li> 
+              <li>
+                <b>Rutwik N. Jain</b>, Shubham Sharma, Kushagra Aggarwal, Tushar Goyal, Abhinav Sundhar, Ujjwal Anand, Nishad Sahu, Joy Parikh, "Modes of Operation of a 3U Cubesat with Hyperspectral Imaging Payload", 69th International Astronautical Congress (IAC 2018). In proceedings. Presented @ Bremen, Germany, 2018.  
+              </li> 
             </ul>
           </div>
       </div>
