@@ -1,0 +1,151 @@
+{
+  "basics": {
+    "name": "Rutwik Jain",
+    "positions": "Research Assistant, University of Wisconsin-Madison <br> Research Associate, AMD Research and Advanced Development",
+    "image": "",
+    "email": "rnjain@wisc.edu",
+    "phone": "(608) 982-5056",
+    "summary": "",
+    "location": {
+      "address": "7575 Morgridge Hall, Computer Sciences Department",
+      "postalCode": "WI 53715",
+      "city": "Madison",
+      "countryCode": "US",
+      "region": "WI"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "rutwik-n-jain",
+        "url": "https://github.com/rutwik-n-jain"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Power Efficiency for AI Compute (PEAC) Team, AMD Research and Advanced Development",
+      "position": "Research Associate",
+      "url": "https://www.amd.com/en/corporate/research.html",
+      "startDate": "2024-05-28",
+      "endDate": "Present",
+      "summary": "Worked with Srilatha (Bobbie) Manne’s team for developing cross-stack power management solutions on AMD Instinct GPUs.",
+      "highlights": ["GPU Power Management", "amdgpu assembly"]
+    },
+    {
+      "name": "Memory Subsystem Design Team, NVIDIA",
+      "position": "ASIC Design Engineer",
+      "url": "https://www.nvidia.com/en-us/",
+      "startDate": "2019-06-01",
+      "endDate": "2021-06-31",
+      "summary": "Microarchitecture design and RTL implementation for the SoC’s memory management IP. This included new feature implementation, modification of existing microarchitecture for PPA optimization, logic synthesis for area and timing accuracy, iterative design to incorporate DV and PD feedback.",
+      "highlights": ["RTL Design", "Memory Management"]
+    },
+    {
+      "name": "Memory Subsystem Design Team, NVIDIA",
+      "position": "ASIC Intern",
+      "url": "https://www.nvidia.com/en-us/",
+      "startDate": "2019-01-01",
+      "endDate": "2021-05-30",
+      "summary": "Developed a debug tool that uses a generated waveform database to identify, trace and correlate memory transactions as they flow through the Memory Management Unit (MMU). Presented my work on developing and scaling the tool in a lightning talk at India-level internal NVIDIA conference, NTech 2019.",
+      "highlights": ["System Memory Management Unit", "Debug Tools"]
+    } 
+  ],
+  "education": [
+    {
+      "institution": "University of Wisconsin-Madison",
+      "location": "Madison, Wisconsin, USA",
+      "url": "https://www.wisc.edu/",
+      "area": "Computer Science",
+      "studyType": "PhD",
+      "startDate": "2021-08-01",
+      "endDate": "Present",
+      "score": "GPA: 3.82/4.0",
+      "courses": ["Advisors: Prof. Matt Sinclair and Prof. Shivaram Venkataraman", "Courses: Advanced Computer Architecture, HPC and Applications in Engineering, Computer Graphics, Operating Systems, Distributed Systems, HW/SW for Next Gen AI Systems, Fault-Tolerant Computing, Real-Time Computing Systems, Optimization, Data Visualization"]
+    },
+    {
+      "institution": "Birla Institute of Technology and Science, Pilani",
+      "location": "Pilani, Rajasthan, India",
+      "url": "http://bits-pilani.ac.in/",
+      "area": "Electrical and Electronics Engineering",
+      "studyType": "B.E.(Hons.) Electrical and Electronics Engineering",
+      "startDate": "2015-07-15",
+      "endDate": "2019-08-22",
+      "score": "GPA: 9.52/10.0",
+      "courses": ["Class Rank: 3/93", "Courses: Computer Architecture, Embedded Systems Design, Digital Design, Digital Signal Processing, Microprocessors and Interfacing, Analog and Digital VLSI Design"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Summer Research Assistantship",
+      "date": "2022-05-15",
+      "awarder": "Department of Computer Sciences, UW-Madison",
+      "url": "https://www.cs.wisc.edu/summer-research-assistantship/",
+      "summary": ""
+    },
+    {
+      "title": "First-Year Departmental Scholarship",
+      "date": "2021-08-01",
+      "awarder": "Department of Computer Sciences, UW-Madison",
+      "url": "",
+      "summary": ""
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Delta Research Mentor Training",
+      "date": "2025-05-06",
+      "issuer": "University of Wisconsin-Madison",
+      "url": "https://badgr.com/public/assertions/rLYTXnzYRZupP4xjOjC-WA",
+      "icon": "fa-solid fa-person-chalkboard"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming and Scripting",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "C",
+        "C++",
+        "OpenMP",
+        "Python",
+        "Julia and JuMP"
+      ]
+    },
+    {
+      "name":  "GPU Programming, Profiling and Debugging",
+      "level": "Master",
+      "icon": "fa-brands fa-microchip",
+      "keywords": [
+        "CUDA",
+        "HIP/ROCm",
+        "rocgdb",
+        "rocprof",
+        "nvml",
+        "nsight-compute"
+      ]
+    },
+    {
+      "name": "Hardware Design and Verification",
+      "level": "Master",
+      "icon": "fa-solid fa-microchip",
+      "keywords": [
+        "Verilog",
+        "ModelSim",
+        "VCS Synopsys Tools"
+      ]
+    },
+
+    {
+      "name": "Tools",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-gears",
+      "keywords": [
+        "Git",
+        "LaTeX",
+        "MATLAB",
+        "Docker, Apptainer"
+      ]
+    }
+  ]
+}
