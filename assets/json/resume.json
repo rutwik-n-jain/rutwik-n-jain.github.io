@@ -4,7 +4,6 @@
     "positions": "Research Assistant, University of Wisconsin-Madison <br> Research Associate, AMD Research and Advanced Development",
     "image": "",
     "email": "rnjain@wisc.edu",
-    "phone": "(608) 982-5056",
     "summary": "",
     "location": {
       "address": "7575 Morgridge Hall, Computer Sciences Department",
@@ -28,15 +27,15 @@
       "url": "https://www.amd.com/en/corporate/research.html",
       "startDate": "2024-05-28",
       "endDate": "Present",
-      "summary": "Worked with Srilatha (Bobbie) Manne’s team for developing cross-stack power management solutions on AMD Instinct GPUs.",
-      "highlights": ["GPU Power Management", "amdgpu assembly"]
+      "summary": "Worked with Srilatha (Bobbie) Manne’s team to develop an event-based model for accurate on-chip power estimation on AMD Instinct GPUs. Used the power estimation model to improve excursion management, particularly for LLM workloads, and developed FW and SW level solutions for managing excursions. Currently working on mitigation techniques for at-scale variability and Power Management (PM) problems.",
+      "highlights": ["GPU Power Management", "Excursion Management", "amdgpu assembly"]
     },
     {
       "name": "Memory Subsystem Design Team, NVIDIA",
       "position": "ASIC Design Engineer",
       "url": "https://www.nvidia.com/en-us/",
-      "startDate": "2019-06-01",
-      "endDate": "2021-06-31",
+      "startDate": "2019-07-01",
+      "endDate": "2021-07-31",
       "summary": "Microarchitecture design and RTL implementation for the SoC’s memory management IP. This included new feature implementation, modification of existing microarchitecture for PPA optimization, logic synthesis for area and timing accuracy, iterative design to incorporate DV and PD feedback.",
       "highlights": ["RTL Design", "Memory Management"]
     },
@@ -45,7 +44,7 @@
       "position": "ASIC Intern",
       "url": "https://www.nvidia.com/en-us/",
       "startDate": "2019-01-01",
-      "endDate": "2021-05-30",
+      "endDate": "2019-06-30",
       "summary": "Developed a debug tool that uses a generated waveform database to identify, trace and correlate memory transactions as they flow through the Memory Management Unit (MMU). Presented my work on developing and scaling the tool in a lightning talk at India-level internal NVIDIA conference, NTech 2019.",
       "highlights": ["System Memory Management Unit", "Debug Tools"]
     } 
@@ -76,6 +75,13 @@
   ],
   "awards": [
     {
+      "title": "AMD Spotlight Award",
+      "date": "2025-12-01",
+      "awarder": "AMD",
+      "url": "",
+      "summary": "For technical contributions to power estimation, excursion management, and power profiling tools (Q4 2025)."
+    },
+    {
       "title": "Summer Research Assistantship",
       "date": "2022-05-15",
       "awarder": "Department of Computer Sciences, UW-Madison",
@@ -88,6 +94,13 @@
       "awarder": "Department of Computer Sciences, UW-Madison",
       "url": "",
       "summary": ""
+    },
+    {
+      "title": "Merit Scholarship",
+      "date": "2015-07-15",
+      "awarder": "Birla Institute of Technology and Science, Pilani",
+      "url": "",
+      "summary": "40% tuition waiver for seven semesters from 2015 to 2019."
     }
   ],
   "certificates": [
