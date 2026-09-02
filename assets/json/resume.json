@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Rutwik Jain",
-    "positions": "Research Assistant, University of Wisconsin-Madison <br> Research Associate, AMD Research and Advanced Development",
+    "positions": "Ph.D. Candidate, University of Wisconsin-Madison <br> Research Associate, AMD Research and Advanced Development",
     "image": "",
     "email": "rnjain@wisc.edu",
     "summary": "",
@@ -22,7 +22,7 @@
   },
   "work": [
     {
-      "name": "Power Efficiency for AI Compute (PEAC) Team, AMD Research and Advanced Development",
+      "name": "AMD Research and Advanced Development (RAD)",
       "position": "Research Associate",
       "url": "https://www.amd.com/en/corporate/research.html",
       "startDate": "2024-05-28",
