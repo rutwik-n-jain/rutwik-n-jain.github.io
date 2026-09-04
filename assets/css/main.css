@@ -27,3 +27,4 @@
 /* Job market banner (hand-added) */
 .job-market-banner{background-color:var(--global-theme-color);color:#fff;padding:.6rem 1rem;font-weight:600;letter-spacing:.02em;margin:0}
 :root[data-theme="dark"] .job-market-banner{color:#000}
+b,strong{font-weight:700}
