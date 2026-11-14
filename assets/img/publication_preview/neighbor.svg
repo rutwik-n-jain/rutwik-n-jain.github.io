@@ -3,14 +3,37 @@
    version="1.1"
    viewBox="-5.0 -10.0 110.0 135.0"
    id="svg13"
-   sodipodi:docname="noun_minos_ClusterAnalysis_6998309.svg"
+   sodipodi:docname="neighbor.svg"
    inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
-     id="defs13" />
+     id="defs13">
+    <linearGradient
+       id="linearGradient15"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#0d00e9;stop-opacity:1;"
+         offset="0"
+         id="stop15" />
+      <stop
+         style="stop-color:#0d00e9;stop-opacity:0;"
+         offset="1"
+         id="stop16" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient15"
+       id="linearGradient16"
+       x1="59.558849"
+       y1="20.298876"
+       x2="78.012203"
+       y2="20.298876"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
   <sodipodi:namedview
      id="namedview13"
      pagecolor="#ffffff"
@@ -88,4 +111,22 @@
      cy="43.857227"
      rx="4.6004701"
      ry="4.6797886" />
+  <path
+     sodipodi:type="star"
+     style="fill:url(#linearGradient16);stroke:#0001f4;stroke-width:5;fill-opacity:1;stroke-opacity:1"
+     id="path14"
+     inkscape:flatsided="false"
+     sodipodi:sides="5"
+     sodipodi:cx="68.924797"
+     sodipodi:cy="21.092833"
+     sodipodi:r1="4.063087"
+     sodipodi:r2="2.0315435"
+     sodipodi:arg1="0.89605538"
+     sodipodi:arg2="1.5243739"
+     inkscape:rounded="0"
+     inkscape:randomized="0"
+     d="m 71.462987,24.26557 -2.443915,-1.143383 -2.327384,1.365038 0.332211,-2.677626 -2.01743,-1.791654 2.649233,-0.511481 1.080544,-2.472341 1.305106,2.361513 2.685242,0.263664 -1.842633,1.970977 z"
+     inkscape:transform-center-x="0.058265327"
+     inkscape:transform-center-y="-0.33215868"
+     transform="translate(13.80141,36.486487)" />
 </svg>
